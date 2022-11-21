@@ -6,12 +6,13 @@
 //*Tipos de variables
 let a = 10, d=0, x = a+d;
 var b = 15;
+var text = `hola ${a}`;
 const c = 20;
-
 a = 80; 
 
 
 //?Console
+console.log(text);
 console.log('Hola mundo en js');
 console.error('este es c '+c+ ' este es d ' + d);
 console.warn('este es a ',a);
