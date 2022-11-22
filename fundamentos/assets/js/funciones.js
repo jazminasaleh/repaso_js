@@ -22,7 +22,7 @@ const saludarFlecha = () =>{
 }
 
 saludarFlecha();
-
+//*No se coloco return ni corchetes porque es algo de una sola fila
 const sumar = (a,b) => a+b;
 console.log(sumar(1,2));
 

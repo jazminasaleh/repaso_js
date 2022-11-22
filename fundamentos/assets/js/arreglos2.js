@@ -2,14 +2,14 @@ let juegos = ['Zelda', 'Mario', 'Metroid', 'Chrono', 123];
 console.log('largo: ', juegos.length);
 
 console.log(juegos[juegos.length-1]);
- //*Elemento: es lo que se encuentra el arrfeglo en la posicion especifica
+ //*Elemento: es lo que se encuentra el arreglo en la posicion especifica
  //*indice: es la posicion en l auqe va recorriendo el arreglo
- //* arr: es el arreglo
+ //*arr: es el arreglo
 juegos.forEach((elemento, indice, arr) =>{
     console.log({elemento, indice, arr});
 } );
 
-//*Sgregar elemennto al final del arreglo
+//*Se agrega elemennto al final del arreglo
 juegos.push('F-zero');
 console.log(juegos);
 
