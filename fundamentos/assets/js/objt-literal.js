@@ -40,6 +40,6 @@ console.log(persona);
 
 //*Congela el objeto y no deja modificar sus elemmentos priniciaples
 //*Ya que los que estan dentro de los lmentos principlaes si deja modificar
+Object.freeze[persona];
 persona.dinero = 1000;
-
 console.log(persona);
